@@ -1,0 +1,21 @@
+car.stl              # geom
+93000                # tmax
+2                    # form (1/2)
+0.01                 # dx
+-4  8           4    # xmin xmax xlive
+-0.6038 1.3962 -0.2  # ymin ymax ylive
+-2  2           0    # zmin zmax zlive
+1 1                  # jsym ksym (0=periodic, 1=velocity, 2=symmetry)
+100                  # nsav
+1000                 # nits
+10                   # nout
+0                    # full  vtk (0/1/2)
+0 1 1                # slice vtk (i,j,k) 0=off
+1                    # RLBM (0/1)
+2160000              # Re = rhoVL/mu
+120                  # Lref (no of cells)
+0.04                 # uLB
+0.10                 # smag (0.1 - 0.2)
+1                    # tang (int)
+5                    # wlfn (int)
+
